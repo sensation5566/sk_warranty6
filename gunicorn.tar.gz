@@ -1,0 +1,23 @@
+URL transformed to HTTPS due to an HSTS policy
+--2022-03-22 15:59:52--  https://github.com/benoitc/gunicorn/tarball/master
+Resolving github.com (github.com)... 52.69.186.44
+Connecting to github.com (github.com)|52.69.186.44|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/benoitc/gunicorn/legacy.tar.gz/refs/heads/master [following]
+--2022-03-22 15:59:52--  https://codeload.github.com/benoitc/gunicorn/legacy.tar.gz/refs/heads/master
+Resolving codeload.github.com (codeload.github.com)... 52.193.111.178
+Connecting to codeload.github.com (codeload.github.com)|52.193.111.178|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘master’
+
+     0K .......... .......... .......... .......... ..........  460K
+    50K .......... .......... .......... .......... ..........  863K
+   100K .......... .......... .......... .......... .......... 1020K
+   150K .......... .......... .......... .......... ..........  859K
+   200K .......... .......... .......... .......... ..........  999K
+   250K .......... .......... .......... .......... ..........  879K
+   300K .......... .......... .......... .......... ........    965K=0.4s
+
+2022-03-22 15:59:53 (809 KB/s) - ‘master’ saved [357319]
+
